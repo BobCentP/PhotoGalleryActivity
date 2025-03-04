@@ -36,6 +36,7 @@ android {
 }
 
 dependencies {
+    implementation (libs.work.runtime)
     implementation(libs.androidx.recyclerview)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
